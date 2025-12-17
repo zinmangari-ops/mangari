@@ -9,7 +9,6 @@ export default function handler(req, res) {
     return res.status(400).json({ error: "Missing fields" });
   }
 
-  // Fake registration logic (later we connect to database)
   res.status(200).json({
     message: "Registration successful",
     user: {
